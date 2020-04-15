@@ -14,6 +14,7 @@ public class Triangle {
     }
 
     public void setSideA(double sideA) {
+
         this.sideA = sideA;
     }
 
