@@ -1,4 +1,4 @@
-package Ćwiczenie_7;
+package cwiczenie7;
 
 public class NumberTest {
     public static void main(String[] args) {

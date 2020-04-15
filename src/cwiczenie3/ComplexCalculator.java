@@ -1,4 +1,4 @@
-package Ćwiczenie_3;
+package cwiczenie3;
 
 public class ComplexCalculator {
 

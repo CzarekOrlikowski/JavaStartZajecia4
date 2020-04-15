@@ -1,4 +1,4 @@
-package Ćwiczenie_6;
+package cwiczenie6;
 
 public class Book {
     String title;
@@ -6,9 +6,13 @@ public class Book {
     int ISBN;
 
     Book (String title, String author, int ISBN){
+        this (title, author);
+        this.ISBN = ISBN;
+    }
+
+    Book (String title, String author){
         this.title = title;
         this.author = author;
-        this.ISBN = ISBN;
     }
 
     void showInfo(){

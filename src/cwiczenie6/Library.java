@@ -1,4 +1,4 @@
-package Ćwiczenie_6;
+package cwiczenie6;
 
 public class Library {
     public static void main(String[] args) {
