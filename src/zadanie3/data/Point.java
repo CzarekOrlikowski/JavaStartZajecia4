@@ -50,13 +50,13 @@ public class Point {
     }
 
     public boolean axisX() {
-        if (x == 0.0 && y != 0.0) {
+        if (x != 0.0 && y == 0.0) {
             return true;
         } else return false;
     }
 
     public boolean axisY() {
-        if (y == 0.0 && x != 0.0) {
+        if (y != 0.0 && x == 0.0) {
             return true;
         } else return false;
     }
