@@ -1,9 +1,9 @@
 package zadanie2.data;
 
 public class Room {
-    double area;
-    double temperature;
-    boolean isAirCondition;
+    private double area;
+    private double temperature;
+    private boolean isAirCondition;
 
     public Room (){
 
@@ -34,8 +34,8 @@ public class Room {
     }
 
     public boolean setDownTemperature (double minTemperature){
-        if (temperature > minTemperature && isAirCondition){
-            --temperature;
+        if (this.temperature > minTemperature && this.isAirCondition){
+            --this.temperature;
             return true;
         }
         else {

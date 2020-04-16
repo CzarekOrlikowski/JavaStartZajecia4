@@ -10,12 +10,7 @@ public class IsTriangleRight {
         if ((sideA == sideB + sideC) ||  (sideB == sideA + sideC) || (sideC == sideB + sideA)){
             return true;
         }
-//        else if (sideB == sideA + sideC){
-//            return true;
-//        }
-//        else if (sideC == sideB + sideA){
-//            return true;
-//        }
+
         else return false;
 
         }
